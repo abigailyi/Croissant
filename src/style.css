@@ -6,6 +6,7 @@
   --background-color: rgb(250, 221, 183);
   --accent-color: #e7b351;
   --box-shadow: 4px 4px 6px rgba(138, 90, 58, 0.5);
+  --highlight-color: rgb(253, 217, 119);
 }
 
 body {
@@ -95,6 +96,13 @@ div.gallery {
   margin: 95px 20px;
 }
 
+span#recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   img.bread {
     width: 50px;
@@ -180,5 +188,5 @@ div.footer {
 }
 
 .list-group-item:hover {
-  background: var(--background-color);
+  background: var(--highlight-color);
 }
