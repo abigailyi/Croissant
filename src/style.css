@@ -162,3 +162,23 @@ div.nutrition {
 h4.desc {
   text-align: center;
 }
+
+p.credits {
+  color: var(--secondary-color);
+  font-family: "Quicksand", "Montserrat", sans serif;
+  font-size: 13px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+div.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px 5px;
+  padding-top: 0px;
+}
+
+.list-group-item:hover {
+  background: var(--background-color);
+}
