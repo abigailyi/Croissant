@@ -40,6 +40,7 @@ h1.logo-header {
   font-family: "Pacifico", "Lobster", cursive;
   font-size: 42px;
   color: var(--primary-color);
+  text-align: center;
 }
 
 h3.enjoy {
@@ -87,25 +88,19 @@ a.email:hover {
   color: var(--accent-color);
 }
 
-div#recipe {
-  margin-top: 200px;
-}
-
 div.gallery {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 95px 20px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   img.bread {
     width: 50px;
     height: 50px;
     object-fit: cover;
-    margin: 3px;
-    padding: 0px;
     border-radius: 20px;
-    transition: transform 0.25s ease;
   }
 
   img.bread:hover {
@@ -115,13 +110,11 @@ div.gallery {
 }
 
 img.bread {
-  display: flexbox;
-  justify-content: center;
   margin: 0px;
   padding: 0px;
   border-radius: 20px;
-  width: 200px;
-  height: 200px;
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   transition: transform 0.25s ease;
 }
@@ -129,4 +122,43 @@ img.bread {
 img.bread:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+}
+
+div.square {
+  padding: 0px;
+  margin: 0px;
+}
+
+div#recipe-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 550px;
+}
+
+img.recipe-card {
+  width: 550px;
+  height: 350px;
+  object-fit: cover;
+}
+
+div.card-body {
+  margin-bottom: 100px;
+}
+
+i {
+  color: rgba(138, 90, 58, 0.7);
+}
+
+strong {
+  color: var(--primary-color);
+}
+
+div.nutrition {
+  background: var(--background-color);
+  padding: 10px;
+}
+
+h4.desc {
+  text-align: center;
 }
