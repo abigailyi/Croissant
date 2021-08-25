@@ -49,6 +49,18 @@ h3.enjoy {
   font-size: 21px;
 }
 
+a.source {
+  color: var(--primary-color);
+}
+
+a.source:hover {
+  color: var(--hover-color);
+}
+
+span.source {
+  font-size: 13px;
+}
+
 img.croissant-boy {
   padding: 0px;
   margin-bottom: 0px;
